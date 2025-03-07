@@ -14,15 +14,15 @@ const multiply = function(arr) {
     return arr.reduce((accumulator, currentValue) => accumulator * currentValue);
 };
 
-const power = function() {
+const power = function(num, exponent) {
 	return Math.pow(num, exponent);
 };
 
 const factorial = function(num) {
 	let res = 1;
-    for (let i = 1; i <= num; i++)
+    for (let i = res; i <= num; i++)
     {
-        res *= 1;
+        res *= i;
     }
     return res;
 };
