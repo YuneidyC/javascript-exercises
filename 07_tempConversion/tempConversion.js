@@ -9,7 +9,7 @@ const convertToFahrenheit = function(num) {
 };
 
 function rounded(num) {
-    return Math.round((num * 10) / 10);
+    return Number.parseFloat(num.toFixed(1));
 }
 
 // Do not edit below this line
